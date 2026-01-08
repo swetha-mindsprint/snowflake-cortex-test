@@ -987,7 +987,7 @@ module_custom_instructions:
     ### Handling decimals
     -Always Round off TC amount, LC amount and GC amount columns up to 2 decimal places
     ### Handling Corporate and Origin or Subsidiary
-    - Select Company code in (SG03, SGG4, SGG5) for Corporate
+    - Select Company code in (SG03, SGG4, SGG5) for Corporate alone. Do not include any other company code.
     - Select Company code not in (SG03, SGG4, SGG5) for Origin or Subsidiary
     ### Columns in output or result
     - Try to show the columns in the output in the below sequence-
