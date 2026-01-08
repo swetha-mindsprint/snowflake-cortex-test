@@ -145,6 +145,7 @@ tables:
         synonyms:
           - Olam Agri Pte
           - Olam Agri Pte Ltd
+          - Olam Agri Singapore
         description: Restrict result for OGAPL company code
         expr: '"Company Code"=''SG03'''
       - name: ONL
