@@ -967,7 +967,7 @@ module_custom_instructions:
     ### General Instructions
     - Always include Record_Type = '0' in the WHERE clause for all queries.
     - When the user specifies a year as a number (e.g., 2025), always compare it to the Year dimension as text (e.g., '2025').
-    ### Selection of ledger
+    ### Selection of ledger - use below logic for selecting ledger
     - Select L3 ledger for Nigeria entities
     - For SFRS Trial balance of SG03 company code select 0L and E1 ledger
     - For CLA Trial balance of SG03 company code select E1 ledger
