@@ -46,7 +46,7 @@ tables:
         data_type: VARCHAR(128)
       - name: COMPANY_NAME
         expr: '"Company Name"'
-        data_type: VARCHAR(200)
+        data_type: VARCHAR(25)
       - name: GL_DESCRIPTION
         expr: '"GL description"'
         data_type: VARCHAR(20)
@@ -959,8 +959,8 @@ verified_queries:
       FROM
         last_month
         CROSS JOIN current_month
-    use_as_onboarding_question: true
-    verified_by: Swetha
+    use_as_onboarding_question: false
+    verified_by: Rosalin Nayak
     verified_at: 1767360034
 module_custom_instructions:
   sql_generation: |-
