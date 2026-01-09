@@ -14,7 +14,7 @@ tables:
           - Accounts
           - Account Number
           - GL
-          - GL_Accounts
+          - GL Accounts
         expr: '"Account Number"'
         data_type: VARCHAR(128)
       - name: AUDIT_PACK_DESCRIPTION
