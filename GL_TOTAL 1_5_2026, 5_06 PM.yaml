@@ -11,9 +11,10 @@ tables:
       - name: ACCOUNT_NUMBER
         synonyms:
           - Account
+          - Accounts
           - Account Number
           - GL
-          - GL Account
+          - GL_Accounts
         expr: '"Account Number"'
         data_type: VARCHAR(128)
       - name: AUDIT_PACK_DESCRIPTION
