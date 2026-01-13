@@ -21,7 +21,7 @@ tables:
           - AP description
         expr: '"Audit Pack Description"'
         data_type: VARCHAR(60)
-      - name: BS_PL_ACCOUNT_TYPE
+      - name: BS PL ACCOUNT TYPE
         synonyms:
           - Balance sheet or Profit & Loss
           - Balance sheet or Profit and Loss
